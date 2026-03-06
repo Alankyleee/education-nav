@@ -2,7 +2,7 @@ site_name: 教育学学术资源导航
 site_description: 面向教育研究者、研究生与高校教师的学术资源汇聚平台
 site_author: 教育学学术资源导航
 repo_name: education-nav
-repo_url: https://github.com/
+repo_url: https://github.com/Alankyleee/education-nav
 
 theme:
   name: material
