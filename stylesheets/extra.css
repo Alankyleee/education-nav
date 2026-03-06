@@ -1,0 +1,146 @@
+/* =====================
+   全局字体与基础样式
+   ===================== */
+:root {
+  --md-text-font: "Roboto Slab", serif;
+}
+
+/* 正文行高优化 */
+.md-typeset {
+  line-height: 1.8;
+  font-size: 0.85rem;
+}
+
+/* =====================
+   首页 Hero 区域
+   ===================== */
+.home-hero {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  margin-bottom: 2rem;
+}
+
+.home-hero h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.home-hero .subtitle {
+  font-size: 1.05rem;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 1.5rem;
+}
+
+.home-badges {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+/* =====================
+   资源统计数字展示
+   ===================== */
+.stats-row {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 1.5rem 0;
+  margin: 1.5rem 0;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+  display: block;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--light);
+}
+
+/* =====================
+   导航卡片美化
+   ===================== */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid.cards > ol > li {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.md-typeset .grid.cards > ul > li:hover,
+.md-typeset .grid.cards > ol > li:hover {
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* =====================
+   侧边栏样式优化
+   ===================== */
+.md-nav__title {
+  font-weight: 700;
+}
+
+.md-nav__item--active > .md-nav__link {
+  color: var(--md-primary-fg-color);
+  font-weight: 600;
+}
+
+/* =====================
+   表格样式
+   ===================== */
+.md-typeset table:not([class]) {
+  font-size: 0.8rem;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-primary-fg-color--light);
+  color: var(--md-primary-bg-color);
+}
+
+/* =====================
+   代码块样式
+   ===================== */
+.md-typeset code {
+  font-size: 0.82em;
+  border-radius: 3px;
+}
+
+/* =====================
+   Admonition 样式微调
+   ===================== */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 0.3rem;
+  font-size: 0.82rem;
+}
+
+/* =====================
+   页脚
+   ===================== */
+.md-footer {
+  margin-top: 2rem;
+}
+
+/* =====================
+   深色模式微调
+   ===================== */
+[data-md-color-scheme="slate"] .home-hero {
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+[data-md-color-scheme="slate"] .stats-row {
+  border-color: rgba(255, 255, 255, 0.08);
+}
