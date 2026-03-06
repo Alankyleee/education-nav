@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdocs --version)",
+      "Bash(pip3 --version)",
+      "Bash(pip3 install mkdocs-material)",
+      "Bash(mkdocs new .)",
+      "Bash(mkdocs build)",
+      "WebFetch(domain:csdiy.wiki)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(pip install mkdocs-open-in-new-tab)",
+      "Bash(gh auth status)",
+      "Bash(git init)",
+      "Bash(git add .)",
+      "Bash(git commit -m \"init: 教育学学术资源导航网站初始版本\")"
+    ]
+  }
+}

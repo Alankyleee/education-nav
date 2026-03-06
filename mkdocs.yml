@@ -1,0 +1,112 @@
+site_name: 教育学学术资源导航
+site_description: 面向教育研究者、研究生与高校教师的学术资源汇聚平台
+site_author: 教育学学术资源导航
+repo_name: education-nav
+repo_url: https://github.com/
+
+theme:
+  name: material
+  language: zh
+  custom_dir: overrides
+
+  features:
+    - header.autohide
+    - navigation.tracking
+    - navigation.top
+    - navigation.indexes
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.tabs.link
+    - content.code.copy
+    - toc.follow
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: 切换至浅色模式
+
+  font:
+    text: Roboto Slab
+    code: Roboto Mono
+
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - 前言: index.md
+  - 数据库与数据:
+    - 概览: databases/index.md
+    - 国内开放数据库: databases/china.md
+    - 国际开放数据库: databases/international.md
+    - 教育统计数据: databases/statistics.md
+  - 政策文献:
+    - 概览: policy/index.md
+    - 国内教育政策: policy/china.md
+    - 国际教育政策: policy/international.md
+    - 比较教育政策: policy/comparative.md
+  - 学术书单:
+    - 概览: books/index.md
+    - 教育学理论经典: books/theory.md
+    - 研究方法: books/methods.md
+    - 比较教育与国际教育: books/comparative.md
+    - 教育技术与学习科学: books/edtech.md
+  - 数据分析工具:
+    - 概览: tools/index.md
+    - 统计软件: tools/statistics.md
+    - 质性研究工具: tools/qualitative.md
+    - 文献管理: tools/reference.md
+    - 学术写作辅助: tools/writing.md
+  - 视频与课程:
+    - 概览: videos/index.md
+    - 研究方法讲座: videos/methods.md
+    - 名校公开课: videos/opencourses.md
+    - 学术会议录像: videos/conferences.md
+  - 关于: about.md
+
+plugins:
+  - search:
+      lang: zh
+  - open-in-new-tab:
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/
+      name: GitHub
+  generator: false
+
+copyright: Copyright &copy; 2026 教育学学术资源导航
