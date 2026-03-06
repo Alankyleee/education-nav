@@ -41,4 +41,5 @@
 !!! tip "如何获取"
     - **馆际互借：** 通过 [CALIS](http://opac.calis.edu.cn) 申请本校图书馆没有的文献
     - **电子书：** EBSCO eBook Collection、超星学术版、ProQuest Ebook Central
-    - **合法获取：** 使用 [Z-Library](https://z-lib.org)（学术用途）或 [Library Genesis](https://libgen.is) 时请遵守所在地法律法规
+    - **开放图书：** [DOAB](https://www.doabooks.org)、[OAPEN Library](https://www.oapen.org)（可直接筛选教育学）
+    - **开放报告：** [National Academies Press](https://www.nap.edu)、[OECD iLibrary](https://www.oecd-ilibrary.org/education)、[UNESCO Documents](https://unesdoc.unesco.org)

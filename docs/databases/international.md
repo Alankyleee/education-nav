@@ -1,86 +1,66 @@
 # 国际开放数据库
 
-## 大型国际比较评估数据
+## 大型国际比较评估数据（截至 2026-03）
 
-### PISA — 国际学生评估项目
+| 项目 | 机构 | 最新公开轮次 | 覆盖范围（官方口径） | 数据入口 |
+|------|------|--------------|----------------------|----------|
+| **PISA**（国际学生评估项目） | OECD | 2022 | 81个国家/经济体，约69万名15岁学生 | [PISA Data](https://www.oecd.org/en/about/programmes/pisa/pisa-data.html) |
+| **TIMSS**（数学与科学趋势研究） | IEA | 2023 | 超65万名学生，64个国家和6个基准参与体 | [TIMSS Repository](https://www.iea.nl/data-tools/repository/timss) |
+| **PIRLS**（国际阅读素养进展研究） | IEA | 2021 | 约40万名学生，57个国家和8个基准参与体 | [PIRLS Repository](https://www.iea.nl/data-tools/repository/pirls) |
+| **TALIS**（国际教学与学习调查） | OECD | 2024（结果2025发布） | 主调查覆盖约55个教育系统，面向教师与校长 | [TALIS Data](https://www.oecd.org/en/about/programmes/talis/talis-data.html) |
+| **PIAAC**（成人能力评估） | OECD | 2023（首批结果2024发布） | 31个国家/经济体，约16万名16-65岁成人 | [PIAAC Data](https://www.oecd.org/en/about/programmes/piaac/piaac-data.html) |
+| **ICILS**（计算机与信息素养） | IEA | 2023 | 35个教育系统，超过13万名八年级学生 | [ICILS Repository](https://www.iea.nl/data-tools/repository/icils) |
+| **ICCS**（公民与公民素养教育） | IEA | 2022 | 22个国家和2个基准参与体，约8.2万名学生 | [ICCS Repository](https://www.iea.nl/data-tools/repository/iccs) |
 
-**机构：** OECD（经济合作与发展组织）
+!!! info "选型建议"
+    - **学习结果比较（K-12）：** PISA / TIMSS / PIRLS
+    - **教师与学校治理：** TALIS
+    - **成人技能与终身学习：** PIAAC
+    - **数字素养与公民素养：** ICILS / ICCS
 
-**简介：** 每三年对15岁学生开展阅读、数学、科学素养评估，2022年数据覆盖81个国家/地区约690,000名学生。
+## 学术文献与引文数据平台
 
-**数据下载：** [https://www.oecd.org/pisa/data/](https://www.oecd.org/pisa/data/)
+| 平台 | 定位 | 访问方式 |
+|------|------|----------|
+| **ERIC** | 教育学文献核心入口（含报告、期刊、灰色文献） | [https://eric.ed.gov](https://eric.ed.gov)（免费） |
+| **Education Source**（EBSCO） | 教育学期刊与全文数据库 | 机构订阅 |
+| **PsycINFO** | 教育心理学与发展心理学核心文献 | 机构订阅 |
+| **Scopus** | 多学科引文数据库，适合文献计量 | 机构订阅 |
+| **Web of Science** | SSCI/ESCI 检索与引文分析 | 机构订阅 |
+| **OpenAlex** | 开放学术图谱（论文/作者/机构/主题） | [https://openalex.org](https://openalex.org)（免费API） |
+| **Crossref** | DOI 元数据检索与批量查询 | [https://www.crossref.org](https://www.crossref.org)（开放API） |
+| **Lens** | 学术论文与专利联合检索 | [https://www.lens.org](https://www.lens.org)（免费注册） |
+| **CORE** | 聚合全球开放获取全文仓储 | [https://core.ac.uk](https://core.ac.uk)（开放检索/API） |
 
-**引用格式：** OECD (2023). *PISA 2022 Database*. OECD Publishing.
+## 开放获取与预印本
 
----
-
-### TIMSS — 数学与科学趋势国际研究
-
-**机构：** IEA（国际教育成就评价协会）
-
-**简介：** 4年级和8年级学生数学与科学成就国际比较，数据追溯至1995年，支持纵向趋势分析。
-
-**数据下载：** [https://timssandpirls.bc.edu/databases-landing.html](https://timssandpirls.bc.edu/databases-landing.html)
-
----
-
-### PIRLS — 国际阅读素养进展研究
-
-**机构：** IEA
-
-**简介：** 4年级学生阅读素养国际比较，每5年一轮，含家庭阅读环境等背景变量。
-
-**数据下载：** [https://timssandpirls.bc.edu/databases-landing.html](https://timssandpirls.bc.edu/databases-landing.html)
-
----
-
-### TALIS — 国际教学与学习调查
-
-**机构：** OECD
-
-**简介：** 面向中学教师与校长的国际调查，涵盖教师专业发展、教学实践、工作满意度，2018年数据覆盖48个国家。
-
-**数据下载：** [https://www.oecd.org/education/talis/talisdata.htm](https://www.oecd.org/education/talis/talisdata.htm)
-
----
-
-### PIAAC — 成人能力国际评估项目
-
-**机构：** OECD
-
-**简介：** 成人识字、计算与数字技能国际比较，适合高等教育与终身学习研究。
-
-**数据下载：** [https://www.oecd.org/skills/piaac/data/](https://www.oecd.org/skills/piaac/data/)
-
----
-
-## 学术文献数据库
-
-| 数据库 | 特点 | 访问 |
-|--------|------|------|
-| **ERIC**（教育资源信息中心） | 美国教育部支持，逾180万篇文献，大量免费全文 | [https://eric.ed.gov](https://eric.ed.gov)（免费） |
-| **Education Source** | EBSCO旗下，覆盖1,900余种教育期刊 | 机构订阅 |
-| **PsycINFO** | APA心理学数据库，含教育心理学文献 | 机构订阅 |
-| **Scopus** | Elsevier，多学科，含引用分析 | 机构订阅 |
-| **Web of Science** | Clarivate，SSCI收录教育期刊 | 机构订阅 |
-| **Google Scholar** | 免费，覆盖广，可设置文献提醒 | [https://scholar.google.com](https://scholar.google.com)（免费） |
-
-## 开放获取资源
-
-!!! tip "开放获取期刊"
-    - **DOAJ**（开放获取期刊目录）：[https://doaj.org](https://doaj.org) — 可筛选教育学OA期刊
-    - **OpenDOAR**（开放获取仓储目录）：[https://v2.sherpa.ac.uk/opendoar/](https://v2.sherpa.ac.uk/opendoar/)
-    - **unpaywall**：浏览器插件，自动查找论文合法免费全文
+!!! tip "开放获取目录"
+    - **DOAJ**（开放获取期刊目录）：[https://doaj.org](https://doaj.org)
+    - **OpenDOAR**（开放仓储目录）：[https://v2.sherpa.ac.uk/opendoar/](https://v2.sherpa.ac.uk/opendoar/)
+    - **unpaywall**（浏览器插件）：自动定位合法免费全文
 
 !!! tip "预印本平台"
-    - **EdArXiv**：[https://edarxiv.org](https://edarxiv.org) — 教育学预印本专属平台
-    - **PsyArXiv**：[https://psyarxiv.com](https://psyarxiv.com) — 心理学/教育心理学预印本
-    - **SSRN**：[https://www.ssrn.com](https://www.ssrn.com) — 社会科学预印本，含教育研究
+    - **EdArXiv**（教育学）：[https://edarxiv.org](https://edarxiv.org)
+    - **PsyArXiv**（心理与教育心理）：[https://psyarxiv.com](https://psyarxiv.com)
+    - **SSRN**（社会科学）：[https://www.ssrn.com](https://www.ssrn.com)
 
-## 世界银行与 UNESCO 数据
+## 国际组织宏观教育指标
 
-| 资源 | 链接 | 内容 |
-|------|------|------|
-| 世界银行教育数据 | [https://data.worldbank.org/topic/education](https://data.worldbank.org/topic/education) | 入学率、教育支出、教师数量等宏观指标 |
-| UNESCO 教育统计研究所（UIS） | [https://uis.unesco.org](https://uis.unesco.org) | 全球教育指标数据库，可按国家/指标筛选 |
-| OECD Education at a Glance | [https://www.oecd.org/education/education-at-a-glance/](https://www.oecd.org/education/education-at-a-glance/) | OECD成员国教育系统年度数据 |
+| 资源 | 链接 | 典型用途 |
+|------|------|----------|
+| UNESCO UIS | [https://uis.unesco.org](https://uis.unesco.org) | 全球教育指标（入学、完成率、师资、财政） |
+| World Bank Education Data | [https://data.worldbank.org/topic/education](https://data.worldbank.org/topic/education) | 跨国宏观教育指标与长期趋势 |
+| World Bank EdStats | [https://datatopics.worldbank.org/education/](https://datatopics.worldbank.org/education/) | 指标面板与国别对比 |
+| OECD Education at a Glance | [https://www.oecd.org/en/publications/education-at-a-glance_69096873-en.html](https://www.oecd.org/en/publications/education-at-a-glance_69096873-en.html) | OECD国家教育系统年度监测 |
+
+## 分析工具与复现支持
+
+| 工具 | 适用场景 | 链接 |
+|------|----------|------|
+| IEA IDB Analyzer | IEA/OECD 大规模评估数据合并与复杂抽样分析 | [https://www.iea.nl/data-tools/tools](https://www.iea.nl/data-tools/tools) |
+| `EdSurvey`（R） | NAEP / PISA / TIMSS / PIRLS 等教育评估分析 | [https://cran.r-project.org/package=EdSurvey](https://cran.r-project.org/package=EdSurvey) |
+| `intsvy`（R） | PISA / TIMSS / PIRLS / TALIS 指标计算与建模 | [https://cran.r-project.org/package=intsvy](https://cran.r-project.org/package=intsvy) |
+
+!!! warning "数据使用规范"
+    使用前请阅读各数据库的使用协议（DUA / License / Terms）。
+    国际评估数据通常采用复杂抽样和可置信值（Plausible Values）设计，分析时必须使用权重与对应方差估计方法。

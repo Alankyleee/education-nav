@@ -16,7 +16,7 @@
 
     ---
 
-    PISA、TIMSS、PIRLS、TALIS、ERIC 等
+    PISA、TIMSS、PIRLS、TALIS、PIAAC、ICILS、ICCS、ERIC 等
 
     [:octicons-arrow-right-24: 查看](international.md)
 
@@ -37,3 +37,6 @@
 
 !!! info "数据格式说明"
     大多数国际数据库提供 SPSS、Stata、SAS 格式数据，推荐使用 [R 或 Python](../tools/statistics.md) 进行跨平台分析。
+
+!!! tip "更新提示"
+    国际数据库页已按官方发布信息更新至 **2026年3月**，优先给出 OECD / IEA 的数据入口与工具链。

@@ -26,6 +26,17 @@
 | *The AI Classroom* | 多位作者 | 教师使用AI工具的实践指南 |
 | UNESCO AI in Education 政策指南 | UNESCO 2021/2023 | AI教育政策框架，[免费下载](https://www.unesco.org/en/digital-education/artificial-intelligence) |
 
+## 2023-2026 官方报告（开放获取）
+
+| 资源 | 机构 | 年份 | 说明 |
+|------|------|------|------|
+| *Guidance for Generative AI in Education and Research* | UNESCO | 2023 | 生成式AI教育治理与教学应用框架，[PDF](https://unesdoc.unesco.org/ark:/48223/pf0000386693) |
+| *AI Competency Framework for Teachers* | UNESCO | 2024 | 教师AI素养能力框架（15项能力，5个维度），[页面](https://www.unesco.org/en/uuid/node/ab2e2aae-3d01-4472-bccc-a2266c9212e2) |
+| *AI Competency Framework for Students* | UNESCO | 2024 | 学生AI素养能力框架（12项能力，4个维度），[页面](https://www.unesco.org/en/articles/ai-competency-framework-students) |
+| *OECD Digital Education Outlook 2023* | OECD | 2023 | 数字教育生态系统比较研究，[报告](https://www.oecd.org/en/publications/oecd-digital-education-outlook-2023_c827b81a.html) |
+| *OECD Digital Education Outlook 2026* | OECD | 2026 | 聚焦生成式AI在教育中的有效使用，[报告](https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html) |
+| *Education Policy Outlook 2024* | OECD | 2024 | 从基础技能到AI时代教师专业发展政策路线图，[报告](https://www.oecd.org/en/publications/education-policy-outlook-2024_dd5140e4-en.html) |
+
 ## 在线与混合学习
 
 | 书目 | 作者 | 说明 |
@@ -36,12 +47,12 @@
 
 ## 重要期刊
 
-| 期刊 | 影响因子 | 说明 |
-|------|----------|------|
-| *Computers & Education* | 12.0 | 教育技术顶刊 |
-| *British Journal of Educational Technology* | 6.2 | BERA旗下，历史悠久 |
-| *Educational Technology Research and Development* | 4.0 | AECT官方期刊 |
-| *Internet and Higher Education* | 8.3 | 聚焦高等教育技术应用 |
-| *Journal of Learning Analytics* | — | 学习分析领域专业期刊 |
-| 《电化教育研究》 | — | 国内教育技术权威期刊 |
-| 《现代远程教育研究》 | — | 国内远程教育研究期刊 |
+| 期刊 | 定位 | 说明 |
+|------|------|------|
+| *Computers & Education* | 教育技术与学习科学顶级期刊 | 强调实证研究与学习成效 |
+| *British Journal of Educational Technology* | 教育技术综合研究 | BERA 旗下，理论与实践并重 |
+| *Educational Technology Research and Development* | 教学设计与教育技术方法论 | AECT 官方期刊 |
+| *Internet and Higher Education* | 高等教育数字化与在线学习 | 聚焦高校场景 |
+| *Journal of Learning Analytics* | 学习分析专业期刊 | 数据驱动学习研究核心期刊 |
+| 《电化教育研究》 | 中文教育技术核心期刊 | 国内教育技术研究高频来源 |
+| 《现代远程教育研究》 | 在线与远程教育研究 | 国内数字教育与开放教育研究 |

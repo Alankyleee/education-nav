@@ -50,3 +50,13 @@
 | *儿童心理学* | 皮亚杰 | — | 认知发展阶段论 |
 | *动机与人格* | 马斯洛 | 1954 | 需求层次理论 |
 | *自我效能感* | 班杜拉 | 1997 | 自我效能理论系统阐述 |
+
+## 当代教育理论与全球议题（开放报告）
+
+| 资源 | 机构 | 年份 | 说明 |
+|------|------|------|------|
+| *Reimagining Our Futures Together: A New Social Contract for Education* | UNESCO | 2021 | “教育作为公共善”与未来教育理论框架，[官方页面](https://www.unesco.org/en/articles/reimagining-our-futures-together-new-social-contract-education) |
+| *Trends Shaping Education 2025* | OECD | 2025 | 从社会、技术、经济、政治趋势讨论教育系统转型，[报告](https://www.oecd.org/en/publications/trends-shaping-education-2025_ee6587fd-en.html) |
+| *Education Policy Outlook 2024* | OECD | 2024 | 教师专业发展与AI时代教育政策路线图，[报告](https://www.oecd.org/en/publications/education-policy-outlook-2024_dd5140e4-en.html) |
+| *2026 GEM Report: Countdown to 2030 (Access and Equity)* | UNESCO | 2026 | SDG4 倒计时系列首份报告，聚焦公平与可及性，[专题页](https://www.unesco.org/gem-report/en/publication/equity-and-access) |
+| *Education at a Glance 2025* | OECD | 2025 | 高等教育、学习结果与教育系统绩效的年度比较证据，[报告](https://www.oecd.org/en/publications/education-at-a-glance-2025_1c0d9c79-en) |
